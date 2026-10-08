@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 export const CustomSelect = ({ value, options, onChange, name }: { value: string | number, options: {label: string, value: string | number}[], onChange: (e: any) => void, name: string }) => {
